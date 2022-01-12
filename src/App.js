@@ -14,7 +14,7 @@ class App extends Component {
     }
   }
 
-  componentDidMount = () => {
+  component = () => {
     let webUrl='http://api.giphy.com/v1/gifs/trending?api_key=d8oGL69nXLVzRXAz2QvLtsGlVm4QqEpq';
     fetch(webUrl)
     .then(responseDetected => responseDetected.json())
